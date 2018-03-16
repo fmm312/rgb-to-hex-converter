@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>RGB to Hex Converter</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+		<!-- css -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- font -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="red-box">
+				<span class="name-color">Red</span>
+				<input type="range" min="0" max="255" id="r" value="255" onchange="changeRange()">
+				<span class="number-rgb" id="r-label">255</span>
+			</div>
+
+			<div class="green-box">
+				<span class="name-color">Green</span>
+				<input type="range" min="0" max="255" id="g" value="255" onchange="changeRange()">
+				<span class="number-rgb" id="g-label">255</span>
+			</div>
+
+			<div class="blue-box">
+				<span class="name-color">Blue</span>
+				<input type="range" min="0" max="255" id="b" value="255" onchange="changeRange()">
+				<span class="number-rgb" id="b-label">255</span>
+			</div>
+		</div>
+
+		<div class="result">
+			<span id="hex-label">#ffffff</span>
+		</div>
+
+		<!-- Font Awesome -->
+		<script src="https://use.fontawesome.com/c9c9c0e555.js"></script>
+		<!-- JS -->
+		<script src="js/script.js"></script>
+	</body>
+</html>
