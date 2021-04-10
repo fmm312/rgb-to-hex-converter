@@ -1,10 +1,10 @@
-![Project screenshot](Screensho.png "Screenchoot")
+![Project screenshot](Screenshot.png "Screenchoot")
 
 <h1 align="center">RGB to Hex Converter</h1>
 
 <div align="center">
 
-A simple tool to convert RGB colors to hexadecimal
+A tool to convert RGB colors to hexadecimal
 
 
 [![Badge](https://img.shields.io/badge/Version-1.0.0-8E2DE2.svg)]()
