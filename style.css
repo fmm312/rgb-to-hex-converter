@@ -9,13 +9,15 @@ body{
 	margin-top: 100px;
 }
 
-.red-box, .green-box, .blue-box{
+.red-box, 
+.green-box, 
+.blue-box{
 	margin: 60px;
 	display: flex;
 	flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .name-color{
@@ -80,7 +82,6 @@ input[type='range']::-webkit-slider-thumb::before {
   background: #777;
 }
 
-/*media queries*/
 @media(max-width: 600px){
 	.container{
 		flex-direction: column;

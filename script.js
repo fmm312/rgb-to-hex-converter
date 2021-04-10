@@ -9,6 +9,7 @@ function changeRange(){
 
 	//change background color and name hex color
 	document.body.style.backgroundColor = color;
+	
 	document.getElementById('hex-label').innerText = color;
 	document.getElementById('r-label').innerText = red;
 	document.getElementById('g-label').innerText = green;
