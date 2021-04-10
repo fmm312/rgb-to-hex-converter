@@ -7,8 +7,8 @@
 A tool to convert RGB colors to hexadecimal
 
 
-[![Badge](https://img.shields.io/badge/Version-1.0.0-8E2DE2.svg)]()
-[![Badge](https://img.shields.io/badge/License-MIT-8E2DE2.svg)]()
+[![Badge](https://img.shields.io/badge/Version-1.0.0-red.svg)]()
+[![Badge](https://img.shields.io/badge/License-MIT-red.svg)]()
 
 </div>
 
@@ -23,4 +23,4 @@ Open an **issue** or **pull request** for this project
 
 ## License
 
-[MIT License]()
+[MIT License](https://github.com/fmm312/rgb-to-hex-converter/blob/master/LICENSE)
